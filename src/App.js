@@ -31,15 +31,6 @@ function App() {
             {data.weather ? <p>{data.weather[0].main}</p> : null}
           </div>
         </div>
-        {/* <div className="bottom">
-          <div className="sensacao-termica">
-            <p>32°C</p>
-          </div>
-          <div className="humidade">
-            <p>70%</p>
-          </div>
-          <div className="vento">60km</div>
-        </div> */}
         <div className="input-container">
           <input
             type="text"
