@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(to right, #ffcc00, #ff6633);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa a altura total da tela */
+  margin: 0;
+}
+
+.conteiner {
+  background-color: #ffcc00;
+  width: 500px;
+  padding: 20px; /* Adiciona algum espaçamento interno */
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+  text-align: center;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+/* Adicione estilos para o input e o botão conforme necessário */
