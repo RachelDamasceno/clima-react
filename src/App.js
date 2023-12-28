@@ -34,12 +34,12 @@ function App() {
         <div className="input-container">
           <input
             type="text"
-            placeholder="Digite o nome da cidade"
+            placeholder="Qual nome da cidade? "
             value={local}
             onChange={(event) => setLocal(event.target.value)}
             onKeyPress={pesquisarLocal}
           />
-          <button>Pesquisar</button>
+          <button>Pesquisar!</button>
         </div>
       </div>
     </div>
